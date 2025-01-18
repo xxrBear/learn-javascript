@@ -41,6 +41,7 @@ const lastName = 'Bob';
 // 虽然可以，但是永远不要用 ，会创建全局变量
  */
 
+/*
 let markMass = 1;
 let markHeight = 1;
 let johnMass = 2;
@@ -50,3 +51,26 @@ markBMI = markMass / markHeight ** 2
 johnBMI = johnMass / johnHeight ** 2
 
 console.log(johnBMI, markBMI);
+
+ */
+
+/*
+
+// 字符串模板
+const firstName = 'xiong'
+const lineText = `I'm ${firstName}`
+console.log(lineText);
+
+*/
+
+// 编码挑战2
+const mBMI = 1;
+const bBMI = 2
+
+if (mBMI > bBMI){
+    console.log('m > b')
+} else {
+    console.log('b > m')
+}
+
+console.log(`m is ${mBMI} b is ${bBMI}`);
